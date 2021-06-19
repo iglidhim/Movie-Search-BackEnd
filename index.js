@@ -10,7 +10,7 @@ Fetch.Promise = Bluebird;
 const port = process.env.PORT;
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Welcome to Igli movies API!')
 })
 
 app.use(cors())
