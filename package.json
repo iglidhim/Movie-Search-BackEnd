@@ -8,13 +8,16 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "",
+  "author": "Igli Dhima",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "httpmongodb": "^1.0.9",
+    "moment-timezone": "^0.5.33",
+    "mongodb": "^3.6.9",
     "node-fetch": "^2.6.1"
   }
 }
