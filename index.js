@@ -12,10 +12,10 @@ Fetch.Promise = Bluebird;
 const port = process.env.PORT;
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('My Movie Search API')
 })
 
-app.use(mongoSrivice("Asia/Kolkata", true));
+app.use(mongoSrivice("USA/New York", true));
 app.use(express.json());
 
 app.use(cors())
