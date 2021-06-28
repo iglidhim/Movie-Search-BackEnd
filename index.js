@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
   res.send('My Movie Search API!')
 })
 
-app.use(mongoSrivice("USA/NewYork", true));
+app.use(mongoSrivice("Asia/Kolkata", true));
 app.use(express.json());
 
 app.use(cors())
